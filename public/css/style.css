@@ -1,0 +1,91 @@
+body {
+  background-color: rgba(99, 99, 99, 0.2);
+}
+
+.navbar {
+  background-color: rgb(56, 66, 33);
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .form-register input {
+    border-radius: 0;
+  }
+
+  .custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+  .btn-9 {
+    background-color: #8991d8;
+    background-image: linear-gradient(315deg, #898ed8 0%, #212c42 74%);
+    border: none;
+    z-index: 1;
+  }
+  .btn-9:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 5px;
+     background-color: #5a4dcc;
+    background-image: linear-gradient(315deg, #554dcc 0%, #212c42 74%);
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+  }
+  .btn-9:hover {
+    color: #fff;
+  }
+  .btn-9:hover:after {
+    top: 0;
+    height: 100%;
+  }
+  .btn-9:active {
+    top: 2px;
+  }
+  
+  /* text shadow */
+  h1.longshadow {
+    color: #2c2c2c;
+    letter-spacing: .05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    font-size: 32px;   
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+  }
